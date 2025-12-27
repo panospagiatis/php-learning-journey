@@ -1,19 +1,24 @@
-# PHP Learning Project: Password Guessing Game
+# PHP Learning Journey
 
-This is a simple PHP script I wrote as a beginner to practice logic and loops. It's a terminal-based game where the user has a limited number of tries to guess a secret word.
+This repository contains a collection of PHP scripts developed as part of my learning path toward building a Pilates Studio management system.
 
-### How it works
+## Project Files
 
-The program uses a while loop to keep the game running until the user either guesses the correct password or runs out of attempts (5 tries).
+### [Price Calculator](./price-calculator.php)
 
-### Key concepts used
+A CLI tool that calculates monthly membership fees.
 
-- While loops and break statements
-- User input using STDIN
-- String comparison
-- Using a "flag" variable to check for a win/loss state
+- **Key Features:** Uses PHP 8 match expressions, exception handling (try/catch), and ternary operators for discount logic.
 
-### How to run it
+### [Password Guessing Game](./guess-password.php)
 
-In your terminal, navigate to this folder and type:
+A terminal-based game focused on control flow and user interaction.
+
+- **Key Features:** Uses a `while` loop with a maximum of 5 attempts, a "flag" variable ($isCorrect) to track state, and `break` statements to exit the loop upon success.
+
+## How to Run
+
+To run any of these programs, use the PHP command in your terminal:
+
+php price-calculator.php
 php guess-password.php
