@@ -2,7 +2,7 @@
 
 /**
  * Greets the user based on their input via CLI.
- * * This script demonstrates basic function definitions, type hinting,
+ * This script demonstrates basic function definitions, type hinting,
  * and standard input handling in a CLI environment.
  */
 
