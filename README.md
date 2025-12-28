@@ -28,4 +28,4 @@ To run any of these programs, use the PHP command in your terminal:
 
 php price-calculator.php \
 php guess-password.php \
-php greeting.php \
+php greeting.php
